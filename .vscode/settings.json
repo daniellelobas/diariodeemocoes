@@ -1,3 +1,13 @@
 {
-  "typescript.preferences.autoImportFileExcludePatterns": ["@ionic/angular/common", "@ionic/angular/standalone"]
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "@ionic/angular/common",
+    "@ionic/angular/standalone"
+  ],
+  "cSpell.words": [
+    "Cadastrar",
+    "entrar",
+    "Senha",
+    "Tenha",
+    "Usuario"
+  ]
 }
