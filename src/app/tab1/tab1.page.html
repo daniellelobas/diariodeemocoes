@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title class="titulo">
+    <ion-title class="titulo" color="">
       Diario de Emoções
     </ion-title>
   </ion-toolbar>
@@ -21,8 +21,13 @@
       <!-- <ion-input type="password" [(ngModel)]="password"></ion-input> -->
       <ion-input type="password"></ion-input>
     </ion-item>
-  <ion-button color="pink"> entrar</ion-button>
-  <ion-button color="rosa">Cadastrar</ion-button>
+  <ion-button href="/tabs/tab2"> entrar</ion-button>
+  <ion-button href="tabs/contact">Cadastrar</ion-button>
+  <div class="container-buttons">
+  <button ion-button outline>Criar Conta</button>
+  <button ion-button outline>Fazer Login</button>
+  </div>
 </ion-col>
 <ion-img src="..\assets\img\bom.jpg"></ion-img>
 </ion-content>
+

@@ -1,7 +1,19 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title class="titulo">Diário </ion-title>
-  </ion-toolbar>
-</ion-header>
+<form>
+  <label>
+    Name:
+    <input [(ngModel)]="name" name="name">
+  </label>
+  <label>
+    Email:
+    <input [(ngModel)]="email" name="email">
+  </label>
+  <button (click)="create()">Create User</button>
+</form>
+<form>
+  <ul>
+    <li *ngFor="let user of users | async">
+      <span>Usuario: {{user.name}}</span>  <span>email: {{user.email}}</span>
+    </li>
+  </ul>
+</form>
 
-<ion-content [fullscreen]="true"></ion-content>

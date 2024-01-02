@@ -1,0 +1,63 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Diario de Emocoes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label> Menu1 </ion-label>
+    </ion-item-divider>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label> Sub-Menu</ion-label>
+    </ion-item>  
+  </ion-item-sliding>
+</ion-item-group>
+<ion-item-group>
+  <ion-item-divider>
+    <ion-label> Menu2 </ion-label>
+  </ion-item-divider>
+<ion-item-sliding>
+  <ion-item>
+    <ion-label > Sub-Menu</ion-label>
+  </ion-item>  
+</ion-item-sliding>
+</ion-item-group>
+  <ion-content class="ion-padding">This is the menu content.</ion-content>
+  <ion-button size="small" href="/tabs/tab1" shape="round">Vai para a home </ion-button>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+  <<ion-header>
+    <ion-toolbar class="ios hydrated">
+      <ion-title class="ios title-ios hydrated">CADASTRO</ion-title>
+      <ion-title>Usuários</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- <ion-content>
+    <ion-list lines="full">
+      <form [form]></form>
+    </ion-list>
+  </ion-content> -->
+  <ion-grid>
+    <ion-row>
+      <ion-col offset="6" offset-md="4" offset-lg="2">
+        <ion-button name="add-outline" id="open-action-sheet">+</ion-button>
+        <ion-action-sheet trigger="open-action-sheet" header="Actions" [buttons]="actionSheetButtons"></ion-action-sheet>  
+      </ion-col>
+    </ion-row>    
+  </ion-grid>
+</div>
+
+
+
