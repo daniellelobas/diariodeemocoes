@@ -31,14 +31,13 @@
 
 :root {
     /* barra superior */
-    --ion-toolbar-background: linear-gradient(0deg, #e0d3e0,rgb(237, 63, 173)) ;
+    --ion-toolbar-background: linear-gradient(0deg, #e0d3e0,rgb(80, 63, 237)) ;
     --ion-toolbar-color: #eee3ea;
     --ion-background-color: linear-gradient(180deg, #efb3e3 0%, #980c69 100%);
     /* barra inferior */
-    --ion-tab-bar-background: linear-gradient(0deg, #e0d3e0,rgb(237, 63, 173)) ;
-    --ion-tab-bar-color: #c5098f;
-    --ion-tab-bar-color-selected: #c5098f;
-    
+    --ion-tab-bar-background: linear-gradient(0deg, #e0d3e0,rgb(17, 15, 155)) ;
+    --ion-tab-bar-color: #ffffff;
+    --ion-tab-bar-color-selected: #ffffff;   
 
     --ion-font-family:família de fontes: 'Whisper', cursiva;
     
