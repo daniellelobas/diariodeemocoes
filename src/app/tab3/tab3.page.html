@@ -1,7 +1,15 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title class="titulo">Histórico </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true"></ion-content>
+<form>
+  <ion-item>
+    <label>
+      Titulo:
+      <input [(ngModel)]="titulo" name="titulo">
+    </label>
+  </ion-item>
+  <ion-item>
+    <label>
+      Descricao:      
+      <ion-textarea [(ngModel)]="descricao" type="text" maxlength="200" name="descricao"></ion-textarea>
+    </label>
+  </ion-item>
+  <button (click)="createdl()">Create Publicacao</button>
+</form>
