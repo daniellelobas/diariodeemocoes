@@ -13,7 +13,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 import { UsersService } from './service/users.service';
 //AUTH
-import { AngularFireAuth } from '@angular/fire/compat/auth';
+//import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 @NgModule({
   declarations: [AppComponent],
@@ -24,7 +24,7 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFireStorageModule,
-    AngularFirestoreModule,
+    AngularFirestoreModule,    
     AngularFireDatabaseModule,    
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],

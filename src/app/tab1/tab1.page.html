@@ -12,21 +12,20 @@
       <ion-card-title> "Tenha sua vida na palma da mão!" </ion-card-title>
     </ion-card-header>
     <ion-item>
-      <ion-label stacked>Usuario:</ion-label>
-      <!-- <ion-input [(ngModel)]="username"></ion-input> -->
-      <ion-input></ion-input>
+    <form (submit)="login(email.value, password.value)">
+        <ion-label stacked>Usuario:</ion-label>        
+        <input type="email" #email placeholder="Email">
+        <ion-label stacked>Senha:</ion-label>
+        <input type="password" #password placeholder="Password">
+        <div style="color: blue; font-size: 16px;">
+        <button type="submit">ENTRAR</button>
+        </div>
+        
+    </form>
     </ion-item>
-    <ion-item>
-      <ion-label stacked>Senha:</ion-label>
-      <!-- <ion-input type="password" [(ngModel)]="password"></ion-input> -->
-      <ion-input type="password"></ion-input>
-    </ion-item>
-  <ion-button href="/tabs/tab2"> entrar</ion-button>
-  <ion-button href="tabs/contact">Cadastrar</ion-button>
-  <div class="container-buttons">
-  <button ion-button outline>Criar Conta</button>
-  <button ion-button outline>Fazer Login</button>
-  </div>
+    
+
+<button (click)="presentSignUpForm()">Sign Up</button>
 </ion-col>
 <ion-img src="..\assets\img\bom.jpg"></ion-img>
 </ion-content>

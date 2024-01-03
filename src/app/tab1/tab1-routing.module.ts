@@ -6,6 +6,9 @@ const routes: Routes = [
   {
     path: '',
     component: Tab1Page,
+  },
+  {
+    path: 'register', component: Tab1Page
   }
 ];
 
