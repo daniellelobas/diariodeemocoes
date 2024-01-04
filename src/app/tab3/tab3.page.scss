@@ -1,0 +1,50 @@
+input[type="text"] {
+    border: solid 1px var(--primary-color);
+    padding: 100px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 30%;
+  }
+
+  button {
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(252, 248, 248);
+    justify-content: flex-end;
+  }
+  .descricao{
+    text-align: center;
+
+  }
+  .titulo{
+    text-align: center;
+    
+  }
+  ion-grid {
+    --ion-grid-padding: 20px;
+  
+    --ion-grid-padding-xs: 20px;
+    --ion-grid-padding-sm: 20px;
+    --ion-grid-padding-md: 20px;
+    --ion-grid-padding-lg: 20px;
+    --ion-grid-padding-xl: 20px;
+  
+    --ion-grid-column-padding: 30px;
+  
+    --ion-grid-column-padding-xs: 30px;
+    --ion-grid-column-padding-sm: 30px;
+    --ion-grid-column-padding-md: 30px;
+    --ion-grid-column-padding-lg: 30px;
+    --ion-grid-column-padding-xl: 30px;
+  }
+  
+  ion-col {
+    background-color: #c789ae;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+  }
